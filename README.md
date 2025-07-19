@@ -36,7 +36,7 @@ PasswordAuthentication no
 ChallengeResponseAuthentication no
 UsePam no
 ```
-- Tested if the public key and CRA logins are disabled by running:
+- Tested if the password and CRA logins are disabled by running:
 ```sh
 ssh -v -n \
   -o Batchmode=yes \
