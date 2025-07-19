@@ -84,7 +84,8 @@ maxretry = 5
 bantime = 600
 findtime = 600
 ```
-- Restarted Fail2Ban: 
+- Enabled and started Fail2Ban: 
 ```sh
-sudo systemctl restart fail2ban
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban
 ```
