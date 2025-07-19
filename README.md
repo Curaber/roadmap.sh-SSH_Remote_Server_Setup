@@ -36,7 +36,7 @@ PasswordAuthentication no
 ChallengeResponseAuthentication no
 UsePam no
 ```
-- Tested if the public key and CRA logins are disable by running:
+- Tested if the public key and CRA logins are disabled by running:
 ```sh
 ssh -v -n \
   -o Batchmode=yes \
@@ -48,7 +48,6 @@ and looking for:
 ```sh
 debug1: Authentications that can continue: publickey
 ```
-in the output. 
 
 ### 4. Connect to the server using an alias. 
 - To allow connecting to the remote machine using an alias, created a `config` file inside `C:\Users\<user>\.ssh` and added: 
